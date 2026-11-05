@@ -1,0 +1,187 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9af595f2-6205-40f8-b500-c533a3a8fb15" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Sales Territory</ID>
+  <Name>Dim Sales Territory</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1104" scrolltop="-5146" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6747" y="13864" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSalesTerritory" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000092110000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimSalesTerritory" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1104</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5146</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2d1eea42-a50c-4768-99a5-b5a17cd12536">
+    <DataSourceViewID>Adventure Works DW2019</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="a4e15feb-3d3f-4c0c-a2f9-396b20400314">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="cfbea261-edb3-4b53-9a52-af3d91f94f72">
+      <ID>Sales Territory Key</ID>
+      <Name>Sales Territory Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b21cd242-7213-40d6-94ab-814673c8b11c">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3106a005-9df3-4d82-b242-124189b57db4">
+            <TableID>dbo_DimSalesTerritory</TableID>
+            <ColumnID>SalesTerritoryKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="acfe3b96-8e7c-4f42-9ae5-fb5572eb9440">
+          <AttributeID>Sales Territory Group</AttributeID>
+          <Name>Sales Territory Group</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="22fb6943-16f3-41c9-95b4-d0a211967667">
+          <AttributeID>Sales Territory Country</AttributeID>
+          <Name>Sales Territory Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5319ca90-9ed9-492c-b6df-a3f1540c0047">
+          <AttributeID>Sales Territory Region</AttributeID>
+          <Name>Sales Territory Region</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="19834ab3-494b-47a7-8884-9981f3fb3061">
+      <ID>Sales Territory Group</ID>
+      <Name>Sales Territory Group</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d0d7c28b-558c-41d5-ad4c-3750c726ea6f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="caa97289-8150-4005-be69-7318a72c8ec8">
+            <TableID>dbo_DimSalesTerritory</TableID>
+            <ColumnID>SalesTerritoryGroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b85abb4a-1061-4e7e-a879-f97a727ec3da">
+      <ID>Sales Territory Country</ID>
+      <Name>Sales Territory Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9d0d8a73-6c15-4ed9-b5ca-92f5d53566c6">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="585c62d7-870b-4a23-964f-cd4ec3f5ba64">
+            <TableID>dbo_DimSalesTerritory</TableID>
+            <ColumnID>SalesTerritoryCountry</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="27096ed8-58ea-4366-b48e-2921f4c6f297">
+      <ID>Sales Territory Region</ID>
+      <Name>Sales Territory Region</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1cc9404-ec19-4523-bf0a-d831055fad95">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a7a1ed1-553b-44d5-91fa-517c92780e11">
+            <TableID>dbo_DimSalesTerritory</TableID>
+            <ColumnID>SalesTerritoryRegion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d6ecdfff-c238-422b-8830-8e2efa9bc8b5">
+      <ID>Jerarquía</ID>
+      <Name>Territorio</Name>
+      <Levels>
+        <Level dwd:design-time-name="55e9471c-5e2d-460f-a4bb-e9c1cc91ad46">
+          <ID>Sales Territory Group</ID>
+          <Name>Sales Territory Group</Name>
+          <SourceAttributeID>Sales Territory Group</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="700cf8fe-c15a-4dde-86db-4898385fad17">
+          <ID>Sales Territory Country</ID>
+          <Name>Sales Territory Country</Name>
+          <SourceAttributeID>Sales Territory Country</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="238b4d09-e3df-4a02-b58f-1fca63da375f">
+          <ID>Sales Territory Region</ID>
+          <Name>Sales Territory Region</Name>
+          <SourceAttributeID>Sales Territory Region</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
